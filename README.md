@@ -137,6 +137,8 @@ MAE: 0.009442293030224192
 - [Pycarte Documentation](https://pycaret.gitbook.io/docs/get-started/modules)
 - [Microsoft's AI Machine Learning Algorithm Cheat Sheet](https://learn.microsoft.com/en-us/azure/machine-learning/algorithm-cheat-sheet?view=azureml-api-1&WT.mc_id=docs-article-lazzeri#download-machine-learning-algorithm-cheat-sheet)
 - [Scikit-learn Extra Trees Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html)
+## Screenshots
+![Cheat Sheet](https://learn.microsoft.com/en-us/azure/machine-learning/media/algorithm-cheat-sheet/machine-learning-algorithm-cheat-sheet.png?view=azureml-api-1#lightbox)
 
 ## Authors
 
