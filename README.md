@@ -50,6 +50,12 @@ training the best model on the entire dataset to make it read for deployment
 final_model = finalize_model(best_model)
 ```
 ---
+### 4. Model Saving & Loading
+
+``` python
+save_model(final_model,'final_model')
+model =load_model('final_model')
+```
 
 ## Model Evaluation
 ### Evaluating the model using RMSE and MAE
@@ -92,6 +98,10 @@ Columns:
 - `Gender`: Categorical variable.
 - `Age`, `Dur`: Numeric Features.
 - `PPV`: Target variable 
+### Dataset Visualization
+#### 1- `PPV` Distribution
+
+![Cheat Sheet](images/dist.png)
 
 ---
 ## Model Justification 
@@ -100,7 +110,7 @@ This model was the best selected model by `PyCaret`, It provided excellent accur
 #### Performance metrics:-
 | MAE                      | MSE    | RMSE   | R²    | RMSLE  | MAPE   |
 |--------------------------|--------|--------|-------|--------|--------|
-| 0.0094                   | 0.0007 | 0.0259 | 1.0000| 0.0020 | 0.0007 |
+| 0.0067                   | 0.0003 | 0.0163 | 1.0000| 0.0012 | 0.0005 |
 |
 
 ---
@@ -116,8 +126,8 @@ This model was the best selected model by `PyCaret`, It provided excellent accur
 
 ## Outputs
 ```
-RMSE: 0.02585692621975396
-MAE: 0.009442293030224192
+RMSE: 0.01633967406140317
+MAE: 0.0067407144813240675
 ```
 ## Resources 
 - [Pycarte Documentation](https://pycaret.gitbook.io/docs/get-started/modules)
