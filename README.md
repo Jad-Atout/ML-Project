@@ -130,4 +130,5 @@ MAE: 0.009442293030224192
 
 - [Jad Atout](https://www.github.com/Jad-Atout)
 - [Razan Hamad](https://github.com/razan0r)
+- [Anwaar Abulola](https://github.com/Anwar974)
 
