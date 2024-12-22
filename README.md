@@ -143,4 +143,5 @@ MAE: 0.009442293030224192
 ## Authors
 
 - [Jad Atout](https://www.github.com/Jad-Atout)
+- [Razan Hamad](https://github.com/razan0r)
 
