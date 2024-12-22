@@ -103,6 +103,14 @@ Columns:
 
 ![Distribution](Images/dist)
 
+#### 2-`Dataset` pair plot
+![pair plot](Images/pair)
+
+#### 3- `Gender` box plot
+![pair plot](Images/box)
+
+
+
 ---
 ## Model Justification 
 ### Extra Trees Regressor
@@ -114,6 +122,8 @@ This model was the best selected model by `PyCaret`, It provided excellent accur
 |
 
 ---
+#### Prediction ERROR Plot
+![model plot](Images/model)
 #### Why Extra Trees Regressor?
 1- it can handle complex datasets with multiple features.
 
