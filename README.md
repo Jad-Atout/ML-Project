@@ -75,8 +75,10 @@ Ensure installing the following libraries:-
 - numpy
 - scikit-learn
 - openpyxl
+- seaborn
+- matplotlib
 ```bash
-pip install pandas numpy pycaret scikit-learn openpyxl
+pip install pandas numpy pycaret scikit-learn openpyxl seaborn matplotlib
 ```
 ### Setup and Execution
 1. Place the dataset file `TG_T_CashValues_Rel.xlsx` in the directory of the notebook.
