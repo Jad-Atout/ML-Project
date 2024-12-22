@@ -16,25 +16,9 @@ since we want to predict PPV which is continuous we will use the Regression algo
 
 The notebook consists of the following key steps:
 
-### 1. Data Loading and Cleaning
-#### loading:-
-```python
-df = pd.read_excel("TG_T_CashValues_Rel.xlsx")
-```
-#### cleaning:-
-```python 
-df.replace(0, np.nan, inplace=True)
-df=df.dropna()
-```
-#### Labeling Categorical Data:-
 
 
-```python
-df['Gender'] = df['Gender'].map({'Male': 1, 'Female': 0})
-
-```
-
-### 2. Model Setup and Training
+### 1. Model Setup and Training
    #### Model Setup:-
 Setup function prepare dataset for training and testing, this function handles the missing values and encoding categorical variables
 
@@ -51,7 +35,7 @@ best_model = compare_models()
 best_model
 
 ```
-### 3. Model Evaluation
+### 2. Model Evaluation
 Evaluates the best model using PyCaret’s built-in tools and cross-validation.
 ```python
 evaluate_model(best_model)
@@ -60,7 +44,7 @@ Predicts values for the target variable on the testing set and calculates perfor
 ```python
 predictions = predict_model(best_model)
 ```
-### 4. Final Model Training
+### 3. Final Model Training
 training the best model on the entire dataset to make it read for deployment
 ```python
 final_model = finalize_model(best_model)
