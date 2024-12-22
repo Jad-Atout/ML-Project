@@ -101,7 +101,7 @@ Columns:
 ### Dataset Visualization
 #### 1- `PPV` Distribution
 
-![Cheat Sheet](images/dist.png)
+![Distribution](Images/dist)
 
 ---
 ## Model Justification 
